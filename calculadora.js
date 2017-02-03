@@ -4,6 +4,7 @@ function suma(){
   b = document.getElementById('numero2').value;
   resultado =a+b;
   return resultado;
+  alert(resultado);
 }
 
 function resta(a,b){
@@ -11,6 +12,7 @@ function resta(a,b){
   b = document.getElementById('numero2').value;
   resultado =a-b;
   return resultado;
+  alert(resultado);
 }
 
 function multiplicacion(a,b){
@@ -18,6 +20,7 @@ function multiplicacion(a,b){
   b = document.getElementById('numero2').value;
   resultado = a * b;
   return resultado;
+  alert(resultado);
 }
 
 function divicion(a,b){
@@ -25,5 +28,6 @@ function divicion(a,b){
   b = document.getElementById('numero2').value;
   resultado = a/b;
   return resultado;
+  alert(resultado);
 }
 alert("si pero no te enojes");
