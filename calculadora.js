@@ -1,7 +1,9 @@
-
+var resultado=0;
 function suma(){
+
   a = document.getElementById('numero1').value;
   b = document.getElementById('numero2').value;
+  resultado = parseInt(a)+ parseInt(b);
 //  alert(typeof(a));
 //  resultado = number(a)+number(b);
     alert(resultado);
