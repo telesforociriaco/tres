@@ -3,7 +3,8 @@ body {
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
-  color: blue ;
+  color: blue;
+  background: green;
 }
 
 ul, ol {
